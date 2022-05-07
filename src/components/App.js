@@ -27,7 +27,7 @@ class App extends Component {
             <div className="App">
                 <Form inline>
                     <h2>Input your Birthday!</h2>
-                    <h3>Format: MM/DD/YYYY</h3>
+                    <h3>Format: YYYY/MM/DD</h3>
                     <FormControl type="date" onChange={event=>this.setState({newDate: event.target.value})}>
 
                     </FormControl>
